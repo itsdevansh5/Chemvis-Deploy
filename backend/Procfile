@@ -1,1 +1,1 @@
-web: gunicorn chemvis-deploy.wsgi:application
+gunicorn backend.chemvis.wsgi:application
