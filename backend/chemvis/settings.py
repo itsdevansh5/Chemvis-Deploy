@@ -63,7 +63,8 @@ MIDDLEWARE = [
 ]
 CORS_ALLOW_ALL_ORIGINS = True
 
-ROOT_URLCONF = 'chemvis.urls'
+ROOT_URLCONF = 'backend.chemvis.urls'
+
 
 TEMPLATES = [
     {
@@ -82,7 +83,8 @@ TEMPLATES = [
 ]
 
 
-WSGI_APPLICATION = 'chemvis.wsgi.application'
+WSGI_APPLICATION = 'backend.chemvis.wsgi.application'
+
 
 
 # Database
